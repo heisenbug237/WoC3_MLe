@@ -32,9 +32,9 @@ class myKMeans:
         #randomly initialize the centroids 
         self.Centroids=self.kmeanspp(self.X,self.K)
 
-        for i in range(self.K):
+        """for i in range(self.K):
             rand=rd.randint(0,self.m-1)
-            self.Centroids=np.c_[self.Centroids,self.X[rand]]
+            self.Centroids=np.c_[self.Centroids,self.X[rand]]"""
 
         #compute euclidean distances and assign clusters
         for n in range(n_iter):
